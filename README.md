@@ -1,13 +1,9 @@
 # k8s_crud_app
 
-CRUD app for k8s deployment
+app for k8s deployment
 
 python 3.13.1
 
-# Структура .env
+# Настройка Docker
 
-DB_HOST=localhost
-DB_PORT=5432
-DB_NAME=mydatabase
-DB_USER=myuser
-DB_PASSWORD=mypassword
+docker run -d --rm -p 8080:8000 someicon/k8s_app:v01
